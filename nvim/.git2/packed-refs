@@ -1,0 +1,5 @@
+# pack-refs with: peeled fully-peeled sorted 
+a5e45ad893928b214454aa931291bfd534bc02e3 refs/remotes/origin/feature/emmylua-ls
+ec3f4489c29b95cc4a15f0f1ae90ae54a675289b refs/remotes/origin/feature/mini.icons
+4b065ad2f71935b8b053d26a65735f40bdc85969 refs/remotes/origin/lazy
+80743df53d8f7058fc5b60e41f1081d11df9c880 refs/remotes/origin/master
