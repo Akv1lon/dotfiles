@@ -1,0 +1,29 @@
+    layout {
+        gaps 8 // Gap between windows
+        center-focused-column "never" // Don’t auto-center focused column
+
+        background-color "transparent" // <- needed for noctalia-shell to set wallpaper
+
+        preset-column-widths {
+            proportion 0.33333
+            proportion 0.5
+            proportion 0.66667
+        }
+
+        struts {}
+    border {
+        // off         // Раскомментируйте 'off', чтобы полностью выключить рамки
+        width 1        // Толщина рамки в пикселях
+        active-color "#7fc8ff"   // Цвет рамки активного окна
+        inactive-color "#505050" // Цвет рамки неактивных окон
+        urgent-color "#cc4444"   // Цвет рамки окна, требующего внимания
+    }
+
+	focus-ring {
+//        off
+		// Устанавливаем толщину рамки фокуса
+        width 1.5
+        active-gradient from="#b8bb26" to="#98971a" angle=45
+        inactive-color "#00000000" 
+    }
+}
